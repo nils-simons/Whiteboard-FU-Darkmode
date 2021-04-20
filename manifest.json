@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Whiteboard-FU-Darkmode",
+    "version": "0.01",
+    "content_scripts": [
+        {
+            "matches": ["https://mycampus.imp.fu-berlin.de/*"],
+            "css": ["src/css/utils/coolors.css", "src/css/content/main.css"],
+            "all_frames": true
+        }
+    ],
+    "permissions": [
+        "storage"
+    ]
+}

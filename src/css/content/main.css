@@ -1,0 +1,8 @@
+* {
+    background-color: var(--dimmed-bg)!important;
+    color: var(--dimmed-text)!important;
+}
+
+.Mrphs-siteHierarchy {
+    background-color: var(--og-green)!important;
+}
